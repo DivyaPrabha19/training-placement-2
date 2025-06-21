@@ -1,0 +1,7 @@
+public class PerfectSquare {
+    public static void main(String[] args) {
+        int n = 49;
+        int sqrt = (int)Math.sqrt(n);
+        System.out.println(sqrt * sqrt == n ? "Perfect Square" : "Not Perfect Square");
+    }
+}
