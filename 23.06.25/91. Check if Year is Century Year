@@ -1,0 +1,6 @@
+public class CenturyYear {
+    public static void main(String[] args) {
+        int year = 1900;
+        System.out.println((year % 100 == 0) ? "Century Year" : "Not Century Year");
+    }
+}
