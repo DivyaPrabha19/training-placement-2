@@ -1,0 +1,4 @@
+public class EndsWith {
+    public static void main(String[] args) {
+        String str = "Welcome.java";
+        System.out.println(str.endsWith(".java") ? "Java File" : "Not Java File");
