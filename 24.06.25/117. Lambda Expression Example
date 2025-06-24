@@ -1,0 +1,7 @@
+import java.util.*;
+public class LambdaExample {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList("Java", "Python", "C");
+        list.forEach(s -> System.out.println(s));
+    }
+}
