@@ -1,0 +1,8 @@
+import java.util.*;
+public class SortList {
+    public static void main(String[] args) {
+        List<Integer> nums = new ArrayList<>(Arrays.asList(4, 2, 9, 1));
+        Collections.sort(nums);
+        System.out.println(nums);
+    }
+}
