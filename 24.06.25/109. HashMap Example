@@ -1,0 +1,8 @@
+import java.util.*;
+public class MapExample {
+    public static void main(String[] args) {
+        Map<String, Integer> map = new HashMap<>();
+        map.put("Java", 90); map.put("Python", 95);
+        System.out.println(map.get("Java"));
+    }
+}
