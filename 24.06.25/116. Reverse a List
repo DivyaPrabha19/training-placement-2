@@ -1,0 +1,8 @@
+import java.util.*;
+public class ReverseList {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList("A", "B", "C");
+        Collections.reverse(list);
+        System.out.println(list);
+    }
+}
