@@ -1,0 +1,3 @@
+s = "Hello world"
+sub = "world"
+print("Found" if sub in s else "Not Found")
