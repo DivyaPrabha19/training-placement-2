@@ -1,0 +1,4 @@
+for num in range(100, 500):
+    n = len(str(num))
+    if num == sum(int(d)**n for d in str(num)):
+        print(num, end=" ")
