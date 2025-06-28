@@ -1,0 +1,5 @@
+username = "admin"
+password = "1234"
+u = input("Username: ")
+p = input("Password: ")
+print("Login Success" if u == username and p == password else "Failed")
