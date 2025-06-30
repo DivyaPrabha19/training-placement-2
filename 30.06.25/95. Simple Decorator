@@ -1,0 +1,12 @@
+def decor(func):
+    def wrap():
+        print("Before")
+        func()
+        print("After")
+    return wrap
+
+@decor
+def say_hello():
+    print("Hello")
+
+say_hello()
