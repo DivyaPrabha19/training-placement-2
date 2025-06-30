@@ -1,0 +1,4 @@
+import re
+s = "There are 12 apples and 30 bananas."
+nums = re.findall(r'\d+', s)
+print(nums)
