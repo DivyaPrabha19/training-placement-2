@@ -1,0 +1,6 @@
+def check_age(age):
+    if age < 18:
+        raise ValueError("Too young")
+    print("Allowed")
+
+check_age(20)
